@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+#score {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+#game {
+  position: relative;
+  width: 1024px;
+  height: 1024px;
+  margin: 0 auto;
+  background: #ccc;
+}
+
+#background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.cat {
+  position: absolute;
+  width: 60px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#win {
+  font-size: 1.5rem;
+  color: green;
+  margin-top: 20px;
+}
