@@ -4,6 +4,9 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -13,8 +16,8 @@ h1 {
 }
 
 #score {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
   color: #666;
 }
 
@@ -22,8 +25,8 @@ h1 {
   position: relative;
   width: 1024px;
   height: 1024px;
-  margin: 0 auto;
   background: #ccc;
+  margin-top: 20px;
 }
 
 #background {
