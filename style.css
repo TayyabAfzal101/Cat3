@@ -23,10 +23,14 @@ h1 {
 
 #game {
   position: relative;
-  width: 1024px;
-  height: 1024px;
-  background: #ccc;
-  margin-top: 20px;
+  width: 100%;
+  max-width: 1280px; /* Or 1920px */
+  aspect-ratio: 16 / 9;
+  background-color: #ccc;
+  background-image: url('background.png');
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
 }
 
 #background {
